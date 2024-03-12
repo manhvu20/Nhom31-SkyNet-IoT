@@ -1,0 +1,33 @@
+{
+  "name": "skynet",
+  "description": "communications platform and api for iot",
+  "version": "0.0.1-35",
+  "author": "Chris Matthieu",
+  "private": true,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "mongojs": "*",
+    "redis": "^4.6.11",
+    "socket.io": "^0.9.19",
+    "restify": "^4.1.1",
+    "node-uuid": "*",
+    "node-static": "*",
+    "mqtt": "*",
+    "JSONStream": "*",
+    "commander": "*",
+    "request": "*",
+    "tokenthrottle": "*"
+  },
+  "subdomain": "skynet",
+  "domains": [
+    "e2e.io",
+    "skynet.im",
+    "skynetim.com",
+    "meshines.com"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  }
+}
